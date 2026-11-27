@@ -6,7 +6,9 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| (brak aktywnych tematow) | | | w kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych |
+| ZERO-RESEARCH-005-zestawienie-zbiorcze | Jedno zestawienie zbiorcze: model x wszystkie cechy (dlugosc, rozdzielczosc, koszt 1 min Full HD, dzwiek, polski, API/SDK/MCP), bez rankingu i rekomendacji | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona, dane tylko z zatwierdzonych RESEARCH-001/-002/-003 (ECHO-027, ECHO-028) |
+
+W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
 ## Zablokowane / do rozpoczecia
 
