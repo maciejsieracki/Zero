@@ -6,7 +6,6 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 1 z 3 | w toku (obieg z obrona), start po restarcie kontenera |
 | ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 3 z 3 (limit) | **WSTRZYMANY, czeka na decyzje wlasciciela**: wezly Kling, Veo, Sora 2, MiniMax = PASS; Seedance = INFRA we wszystkich 3 rundach (sieć sesji blokuje oficjalne strony BytePlus/Volcengine); synteza nie uruchomiona |
 | ZERO-PROCES-002-inwentarz-zasad-autobot | Istnieje zweryfikowany inwentarz zestawow zasad AutoBot (Autobot.rar, paczka v2, wersja sesji) | 3 z 3 (limit) | **WSTRZYMANY**: Evaluator w rundzie 2 = CLEAR (10/10, wszystkie scenariusze); Final Control zglosil 2 zarzuty PROCESOWE dotyczace moich zapisow (stan rejestru i licznik rund w zleceniu), ktore Operator slusznie uznal za poza swoim zakresem (BLOCK w rundzie 3); wytwor nie zintegrowany (niezacommitowany) |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
@@ -24,6 +23,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 |---|---|---|---|
 | ZERO-BAZA-001-import-scenariuszy | Trzy aktualne scenariusze (`_rev`) w `scenariusze/` bajt w bajt zgodne z archiwum zrodlowym | PASS, runda 1 z 3; **READY_FOR_DEPLOY** (commit "Wlacz baze scenariuszy (ZERO-BAZA-001)...") | Operator (skrocone hashe w raporcie; Evaluator i Final Control powtorzyly dowody) |
 | ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | PASS, runda 1 z 3 (stary obieg bez osobnej obrony i roli Integration); **READY_FOR_DEPLOY** po wlaczeniu przez orkiestratora (commit "Wlacz wytwor ZERO-ANALIZA-001 (AutoBot, runda 1)") | Operator (PROPOZYCJE zapisane w formacie cytatu; brak jawnej linii GOAL w raporcie) |
+| ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | PASS, runda 1 z 3 (obieg z obrona: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-ANALIZA-002-e02-logika-timing-napiecie (AutoBot, runda 1)") | Evaluator (pole z hashem zbiorczym nie dawalo sie odtworzyc; Final Control potwierdzil hashe niezaleznie) |
 
 ## Liczby obowiazujace
 
@@ -41,4 +41,5 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 - Przed wprowadzeniem zasad AutoBot (2026-11-27) uruchomiono bez zapisu zlecenia: siedmiu agentow przegladu archiwum, dwa audyty Opus (E01, E02), dwa audyty zatrzymane (E03, miedzyodcinkowy) oraz plan (`PLAN_WDROZENIA_ZERO.md`) i notatki w `docs/`. Traktowane wylacznie jako material wejsciowy (rzad 4).
 - Tematy BAZA-001, ANALIZA-001 i RESEARCH-001 przeszly obiegiem bez osobnej obrony (zasady z listy umiejetnosci sesji); od ECHO-010 obowiazuje obieg z obrona (skrypt `zero-autobot-v2`), a PROCES-002 i ANALIZA-002 ida juz nim.
 - **Uchybienie orkiestratora:** w trakcie PROCES-002 nie zaktualizowalem w pore rejestru i licznika rund w zleceniu, przez co Final Control zglosil 2 zarzuty procesowe, a runda 3 zostala zmarnowana. Naprawione w tym zapisie.
+- ANALIZA-002: pierwsze uruchomienie Operatora = INFRA (Operator odpowiedzial na wiadomosc uzytkownika z kontekstu sesji, nic nie zmienil; runda nie zuzyta); dopisano zastrzezenie o zrodle zlecenia do wszystkich rol. Integration w rundzie 1 = INTEGRATION_FAILED z powodu bledu skryptu orkiestratora (hash zbiorczy Evaluatora nie do odtworzenia); poprawiono na hashe per plik i wykonano sam krok Integration (INTEGRATED_VERIFIED).
 - Restart kontenera przerwal sesje; trzy workflow (ANALIZA-001, PROCES-002 i wczesniej BAZA/RESEARCH-001) zakonczyly sie przed restartem, a ich wyniki odczytano z plikow wyjsciowych.
