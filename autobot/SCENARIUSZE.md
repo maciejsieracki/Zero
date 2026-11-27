@@ -29,3 +29,11 @@ Zrodlo kryteriow konca. Sprawdza Evaluator **recznie i od zera, wlasnym narzedzi
 - **S-R5 (zrodla i abonamenty)** Kazdy fakt z zrodla rzedu 4-5 jest oznaczony NIEPOTWIERDZONE (pewnosc niska); zadna liczba docelowa nie opiera sie na abonamencie miesiecznym; brak twierdzen z pamieci.
 - **S-R6 (zakres)** Uwzglednione sa: Kling, Seedance, Google Veo, Sora 2, MiniMax (API). Jesli ktorys nie jest dostepny przez API/kredyty, jest to jawnie opisane z zrodlem.
 - **S-R7 (brak zmian)** Zadne zmiany poza allowlista zlecenia.
+
+## Temat ZERO-RESEARCH-002-audio-i-jezyk-polski (wezly -a Kling, -b Seedance, -c Veo, -d Sora 2, -e MiniMax API)
+
+- **S-R8 (kompletnosc pol audio)** Dla kazdego modelu z RESEARCH-001 sa: czy generuje dzwiek natywnie; zakres (mowa/dialog, efekty, ambient, muzyka); czy audio i wideo powstaja w jednym przebiegu (jednoczesnie) czy osobno; jezyki mowy, w tym status polskiego (OFICJALNIE / W PRAKTYCE / BRAK DANYCH / NIE); synchronizacja ust i liczba mowcow w klipie; mozliwosc wylaczenia muzyki; mozliwosc podania wlasnego audio lub glosu; mozliwosc wyeksportowania sciezki audio osobno; zachowanie audio w trybach start image / przedluzanie; roznica ceny z audio i bez; co najmniej jeden URL zrodla rzedu 1.
+- **S-R9 (potwierdzenie)** Evaluator niezaleznie potwierdza kazde twierdzenie tak/nie o audio i jezyku w dokumentacji lub oficjalnym ogloszeniu dostawcy; status polskiego "OFICJALNIE" wymaga zrodla rzedu 1; testy niezalezne i opinie to rzad 4 i maja status W PRAKTYCE oraz NIEPOTWIERDZONE.
+- **S-R10 (spojnosc z RESEARCH-001)** Lista modeli, ceny z audio i bez audio oraz data cennika sa zgodne z zestawieniem z ZERO-RESEARCH-001; nowsze modele zglaszane jako zarzut.
+- **S-R11 (ranking jawny)** Zestawienie zawiera ranking zgodnosci z wymaganiami ZERO (ECHO-008) wyliczony wg jawnej, opisanej w pliku punktacji (kryteria: audio natywne, jednoczesnosc, polski, lip-sync, wielu mowcow, wylaczenie muzyki, audio-wejscie); Evaluator przelicza punkty od zera; kolejnosc wynika z punktacji, nie z opinii.
+- **S-R12 (zrodla i zakres)** Brak twierdzen z pamieci; zrodla rzedu 4-5 oznaczone NIEPOTWIERDZONE; uwzglednieni wszyscy dostawcy z RESEARCH-001; zadne zmiany poza allowlista.
