@@ -19,3 +19,13 @@ Zrodlo kryteriow konca. Sprawdza Evaluator **recznie i od zera, wlasnym narzedzi
 - **S-A7 (kompletnosc)** Raport zawiera sekcje: logika, timing, napiecie, kolejnosc rekomendowanych poprawek i liste decyzji kanonicznych wymaganych od wlasciciela, oraz tabele scen (`tabela_scen.md`).
 - **S-A8 (raport terminalny)** Raport terminalny Operatora do 400 slow, w formacie kontraktu, bez surowych danych.
 - **S-A9 (zrodla)** Fakty naukowe, techniczne i branzowe nieweryfikowalne w tekscie scenariusza sa oznaczone NIEPOTWIERDZONE (zadnych twierdzen z pamieci jako faktow).
+
+## Temat ZERO-RESEARCH-001-porownanie-generatorow-wideo (wezly -a Kling, -b Seedance, -c Veo, -d Sora 2, -e MiniMax API)
+
+- **S-R1 (kompletnosc danych)** Dla kazdego uwzglednionego modelu sa: maks. dlugosc jednego klipu (s), maks. rozdzielczosc, informacja czy 1080p jest dostepne, cena za sekunde przy 1080p (lub przy najwyzszej dostepnej, z oznaczeniem) w rozliczeniu pay-as-you-go / API / kredytow, koszt 1 minuty, data cennika i co najmniej jeden URL zrodla rzedu 1 (oficjalny cennik lub dokumentacja).
+- **S-R2 (potwierdzenie zrodel)** Evaluator niezaleznie pobiera cytowane zrodla (lub szuka niezaleznie) i potwierdza kazda liczbe (dlugosc, rozdzielczosc, cena). Rozbieznosc powyzej 5% albo brak potwierdzenia = FALSZ.
+- **S-R3 (arytmetyka)** Koszt 1 min = cena za sekunde x 60 (lub kredyty za sekunde x cena kredytu x 60) przeliczony od zera przez Evaluatora; zgodnosc do 1 centa.
+- **S-R4 (sortowanie)** Zestawienie jest posortowane rosnaco po koszcie 1 minuty przy 1080p; modele bez 1080p lub bez ceny sa na koncu i jawnie oznaczone; Evaluator sprawdza kolejnosc.
+- **S-R5 (zrodla i abonamenty)** Kazdy fakt z zrodla rzedu 4-5 jest oznaczony NIEPOTWIERDZONE (pewnosc niska); zadna liczba docelowa nie opiera sie na abonamencie miesiecznym; brak twierdzen z pamieci.
+- **S-R6 (zakres)** Uwzglednione sa: Kling, Seedance, Google Veo, Sora 2, MiniMax (API). Jesli ktorys nie jest dostepny przez API/kredyty, jest to jawnie opisane z zrodlem.
+- **S-R7 (brak zmian)** Zadne zmiany poza allowlista zlecenia.

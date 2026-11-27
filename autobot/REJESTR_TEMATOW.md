@@ -6,9 +6,10 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-BAZA-001-import-scenariuszy | Trzy aktualne scenariusze sa w repozytorium jako baza z hashami zgodnymi z archiwum zrodlowym | 1 z 3 | zlecenie zapisane, do uruchomienia |
+| ZERO-BAZA-001-import-scenariuszy | Trzy aktualne scenariusze sa w repozytorium jako baza z hashami zgodnymi z archiwum zrodlowym | 1 z 3 | w toku (workflow wf_86bf9f7b-43a) |
 | ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 0 z 3 | zablokowany do konca ZERO-BAZA-001 |
 | ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 0 z 3 | zablokowany do konca ZERO-BAZA-001 |
+| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 0 z 3 | w toku; pula 2 = BAZA + RESEARCH, analizy E01/E02 startuja po zwolnieniu slotow |
 
 ## Zablokowane / do rozpoczecia
 

@@ -7,6 +7,7 @@
 | Limit rund na temat | 3 | domyslny bezpieczny; orkiestrator decyduje i informuje |
 | Limit objetosci raportu terminalnego | 400 slow (wytwor w pliku nie jest limitowany) | domyslny |
 | Pula tematow rownoleglych | 2 | ECHO-002 |
+| Etapy w ID tematow | BAZA, ANALIZA, RESEARCH, PROCES | orkiestrator, informacja |
 | Modele | Opus 5.5 dla Operatora, Evaluatora i Final Control | ECHO-006 |
 | Prog zwisu (ZWIS) | 40 min bez zadnego postepu; orkiestrator sprawdza przebieg zamiast restartowac | orkiestrator, informacja |
 | Jezyk dokumentow | polski; nazwy techniczne, pola i sciezki po angielsku bez diakrytykow | orkiestrator |
