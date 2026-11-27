@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-AUDIO-001-e01-audiobook | Gotowy do odczytu tekst audiobooka dla E01 (z opisami wyprowadzonymi ze scenariusza, dialogi bez zmian), PDF, notatka dla lektora i slad dodatkow | 3 z 3 (limit) | **WSTRZYMANY, czeka na decyzje wlasciciela o dodatkowym przejsciu**: Evaluator r3 = CLEAR (10/10, wszystkie scenariusze); jedyny zarzut Final Control r3 dotyczyl licznika rund w rejestrze (uchybienie orkiestratora, powtorzone); wytwor niezacommitowany |
+| ZERO-AUDIO-001-e01-audiobook | Gotowy do odczytu tekst audiobooka dla E01 (opisy ze scenariusza, dialogi bez zmian), PDF, notatka dla lektora i slad dodatkow | 4 z 4 (zgoda wlasciciela ECHO-015) | **w kolejce**: dodatkowe przejscie (Evaluator -> Final Control -> Integration, bez zmian tresci) ruszy, gdy zwolni sie miejsce w puli 2 (RESEARCH-002 i -003 w toku); Evaluator r3 = CLEAR |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 | ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 
@@ -14,7 +14,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 - Temat miedzyodcinkowy E01<->E02 (spojnosc, wiedza widza) — po raporcie ANALIZA-002.
 - Tematy poprawek scenariuszy — po decyzjach kanonicznych wlasciciela.
-- Przejecie najnowszego zestawu zasad (R1-R13 z inwentarza) — osobny temat PROCES po zamknieciu PROCES-002 i decyzji wlasciciela.
+- ZERO-PROCES-004-przejecie-regul-autobot — przejecie R1-R12 z zachowaniem regul roli orkiestratora (ECHO-015 pkt 3 = A); zlecenie zapisane, w kolejce za RESEARCH-002/-003.
 
 ## Zamkniete
 

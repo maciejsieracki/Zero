@@ -71,3 +71,10 @@ Zrodlo kryteriow konca. Sprawdza Evaluator **recznie i od zera, wlasnym narzedzi
 - **S-U5 (PDF i znaki)** Plik PDF powstal z tego samego tekstu; polskie znaki poprawne (pdftotext bez znakow zastepczych), czcionka osadzona, koniec oznaczony "Koniec odcinka"; liczba slow i szacowany czas czytania (150 slow/min) per segment i lacznie w notatce dla lektora.
 - **S-U6 (granice)** `scenariusze/` niezmienione (sha256sum -c); sprzecznosci kanoniczne (np. wiedza widza o Adze, os milczenia Ares IV) odtworzone bez rozstrzygania i wypisane w notatce dla lektora jako "do decyzji autora"; brak sekretow; brak zmian poza allowlista.
 - **S-U7 (raport)** Raport terminalny Operatora do 400 slow; plik sladu dodatkow zawiera co najmniej jeden wpis na kazdy segment.
+
+## Temat ZERO-PROCES-004-przejecie-regul-autobot
+
+- **S-P11 (reguly R1-R13)** Dokument `autobot/ZASADY_PROCESU.md` zawiera reguly R1-R12 z najnowszego zestawu (inwentarz, sekcja 6) i R13; kazda regula ma odnosnik do zrodla (plik i numer linii) zweryfikowany przez Evaluatora na ORYGINALE z archiwum (swieza ekstrakcja); 100% odnosnikow zgodnych.
+- **S-P12 (reguly zachowane)** Sekcja regul zachowanych z poprzedniej wersji zawiera wszystkie pozycje usuniete w nowszym zestawie dotyczace roli orkiestratora (eskalacja przez orkiestratora; autoryzacja integracji i wylaczny zapis READY_FOR_DEPLOY; zakaz wykonywania pracy merytorycznej, ktora sam ma oceniac; zakaz cichej zmiany GOAL, granic i limitow; zakaz publikacji bez zgody) z cytatem i linia z paczki v2.
+- **S-P13 (wylaczenia)** Sekcja "czego nie przejmujemy" zawiera autonomiczne dzialania live, elementy srodowiska OpenClaw i zuzycie tokenow per faza, z uzasadnieniem; zadna z tych rzeczy nie wystepuje w regulach dokumentu.
+- **S-P14 (zakres i wykonalnosc)** Zadne istniejace pliki `autobot/` ani inne pliki repozytorium nie zostaly zmienione; sekcja "Wymagane zmiany w dokumentach i skrypcie" jest kompletna (wskazuje miejsca w `00_PUNKT_STARTOWY.md`, `WYBORY_TRWALE.md`, skrypcie workflow) i wykonalna; zadne skrypty z archiwum nie zostaly uruchomione.
