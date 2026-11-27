@@ -45,3 +45,12 @@ Zrodlo kryteriow konca. Sprawdza Evaluator **recznie i od zera, wlasnym narzedzi
 - **S-R15 (sterowalnosc z Claude Code)** Dla kazdego dostawcy opisana jest minimalna sciezka sterowania z Claude Code (MCP, wywolania HTTP/SDK przez narzedzie powloki albo brak) z wymienieniem wymaganych endpointow lub narzedzi, wynikajaca ze zrodel; w ramach badania NIE wykonano zadnego wywolania API, nie zalozono kont i kluczy, nie zainstalowano serwerow MCP.
 - **S-R16 (ocena jawna)** Zestawienie zawiera punktacje gotowosci do sterowania z Claude Code wg opisanych w pliku kryteriow (API publiczne, obraz do wideo, obrazy referencyjne, asynchronicznosc i webhook, oficjalne SDK, oficjalny MCP, MCP spolecznosciowy, brak barier onboardingu); Evaluator przelicza punkty od zera.
 - **S-R17 (zrodla, zakres, bezpieczenstwo)** Brak twierdzen z pamieci; rzad 4-5 oznaczony NIEPOTWIERDZONE; uwzglednieni wszyscy dostawcy; zadne klucze/sekrety w zapisach; zadne zmiany poza allowlista.
+
+## Temat ZERO-PROCES-002-inwentarz-zasad-autobot
+
+- **S-P1 (kompletnosc)** Kazdy plik z archiwum Autobot.rar (62 wpisy wg listy, w tym zawartosc autobot-skills.zip), z paczki v2 z 2026-09-16 i z wersji z listy umiejetnosci sesji jest sklasyfikowany albo jawnie pominiety z powodem (np. __pycache__, dane uruchomien).
+- **S-P2 (obrona: tak/nie z dowodem)** Dla kazdego zestawu zasad twierdzenie "definiuje obrone" i "definiuje osobna rola Integration" jest poparte dosłownym cytatem z numerem linii albo potwierdzonym brakiem (grep -n -i z pustym wynikiem); Evaluator weryfikuje grepem niezaleznie.
+- **S-P3 (najnowszy zestaw)** Najnowszy zestaw z obrona wskazany na podstawie dat (mtime i data/wersja w tresci) oraz tresci (odwolania do poprzednich wersji); Evaluator potwierdza daty i odwolania.
+- **S-P4 (roznice vs v2)** Lista roznic funkcjonalnych wzgledem v2 (role, przejscia, checklista Evaluatora, receipts, integracja, orkiestrator) z cytatami i z lista konkretnych regul do przeniesienia do procesu ZERO.
+- **S-P5 (rekomendacje)** Dla kazdego zestawu/pliku: USUNAC / ZACHOWAC / NIE DOTYCZY z uzasadnieniem; rekomendacja USUNAC tylko dla plikow przeczytanych w calosci; archiwum i oryginaly niezmienione (hash przed i po).
+- **S-P6 (bezpieczenstwo)** Zadne skrypty z archiwum nie zostaly uruchomione (.sh, .py, testy, demo), brak sekretow w raporcie, brak zmian poza allowlista.
