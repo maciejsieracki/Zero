@@ -6,10 +6,9 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-BAZA-001-import-scenariuszy | Trzy aktualne scenariusze sa w repozytorium jako baza z hashami zgodnymi z archiwum zrodlowym | 1 z 3 | w toku (workflow wf_86bf9f7b-43a) |
-| ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 0 z 3 | zablokowany do konca ZERO-BAZA-001 |
-| ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 0 z 3 | zablokowany do konca ZERO-BAZA-001 |
-| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 0 z 3 | w toku; pula 2 = BAZA + RESEARCH, analizy E01/E02 startuja po zwolnieniu slotow |
+| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 1 z 3 | w toku (workflow, wezly -a..-e) |
+| ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 1 z 3 | w toku (workflow) |
+| ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 0 z 3 | oczekuje na wolny slot (pula 2); start po zakonczeniu RESEARCH |
 
 ## Zablokowane / do rozpoczecia
 
@@ -18,7 +17,9 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 ## Zamkniete
 
-Brak.
+| ID | GOAL | Wynik | Najslabszy wezel |
+|---|---|---|---|
+| ZERO-BAZA-001-import-scenariuszy | Trzy aktualne scenariusze (`_rev`) w `scenariusze/` bajt w bajt zgodne z archiwum zrodlowym | PASS, runda 1 z 3; **READY_FOR_DEPLOY** po wlaczeniu do galezi roboczej (commit "Wlacz baze scenariuszy (ZERO-BAZA-001)...") | Operator (w raporcie skrocone hashe i zrodlo ekstrakcji tylko slownie; Evaluator i Final Control powtorzyly dowody niezaleznie) |
 
 ## Liczby obowiazujace
 
@@ -27,6 +28,7 @@ Brak.
 | Limit rund | 3 | obowiazuje |
 | Pula rownolegla | 2 | ECHO-002 |
 | Limit raportu terminalnego | 400 slow | obowiazuje |
+| Baza scenariuszy SHA-256 (poczatek) | E01 b0264c95…, E02 1166c23d…, E03 24315de7… (pelne w `scenariusze/MANIFEST.sha256`) | potwierdzone przez Evaluatora i Final Control |
 | Czas E01 (suma etykiet CZAS) | 60,5 min | niepotwierdzone przez Evaluatora — do weryfikacji w ANALIZA-001 |
 | Czas E02 | 5 roznych wartosci (65 / 69 / 70,5 / 73,5 / ~67) | do rozstrzygniecia w ANALIZA-002 |
 
