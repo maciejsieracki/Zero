@@ -7,8 +7,8 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
 | ZERO-AUDIO-001-e01-audiobook | Gotowy do odczytu tekst audiobooka dla E01 (opisy ze scenariusza, dialogi bez zmian), PDF, notatka dla lektora i slad dodatkow | 4 z 4 (zgoda wlasciciela ECHO-015) | **w kolejce**: dodatkowe przejscie (Evaluator -> Final Control -> Integration, bez zmian tresci) ruszy, gdy zwolni sie miejsce w puli 2 (RESEARCH-002 i -003 w toku); Evaluator r3 = CLEAR |
-| ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
-| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
+| ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 3 z 3 (limit na wezlach) | **WSTRZYMANY, czeka na decyzje wlasciciela**: wezly: MiniMax PASS (r1); Seedance Evaluator CLEAR w r2 i r3 (FC: tylko zarzut o rejestrze orkiestratora); Veo i Sora 2 Evaluator CLEAR w r1-r2, w r3 INCONCLUSIVE (hosty dostawcow zablokowane, wyczerpany limit wyszukiwan); Kling r3 FINDINGS (2 zarzuty merytoryczne). Synteza nie uruchomiona. Przyczyny: blad orkiestratora (rejestr "0 z 3" powielal zarzut procesowy w kolejnych rundach) i blokady sieci |
+| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 3 z 3 (limit na wezlach) | **WSTRZYMANY, czeka na decyzje wlasciciela**: wezly: Sora 2 i MiniMax Evaluator CLEAR w r3 (FC: tylko zarzut o rejestrze orkiestratora); Kling r3 INCONCLUSIVE (kling.ai zablokowany); Veo r3 FINDINGS (etykiety pewnosci zrodel rzedu 5); Seedance BLOCK w r2 (docs.volcengine.com, ark.volcengine.com niedostepne). Synteza nie uruchomiona. Przyczyny: blad orkiestratora (rejestr) i blokady sieci |
 
 ## Zablokowane / do rozpoczecia
 
