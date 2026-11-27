@@ -89,3 +89,10 @@ Zrodlo kryteriow konca. Sprawdza Evaluator **recznie i od zera, wlasnym narzedzi
 - **S-R21 (pewnosc i zrodla)** Kazda komorka oparta na zrodle rzedu 4-5 lub na odczycie posrednim jest oznaczona NIEPOTWIERDZONE; modele niedostepne lub wygasajace (Sora 2, Veo w Gemini API, Omni 1.1) maja date; sekcja zrodel wskazuje plik i sekcje zatwierdzonego badania dla kazdej grupy pol.
 - **S-R22 (zakres i brak zmian zrodel)** Zmieniony jest tylko plik z allowlisty; pliki RESEARCH-001/-002/-003 maja niezmienione hashe SHA-256; brak nowych odczytow sieci i wywolan API; brak sekretow.
 
+## Temat ZERO-RESEARCH-006-zestawienie-word
+
+- **S-R23 (pelnosc tresci)** Plik .docx zawiera wszystkie sekcje i podsekcje (naglowki) oraz wszystkie tabele zrodlowego `zestawienie_zbiorcze.md`: liczba naglowkow, tabel, wierszy i kolumn kazdej tabeli jest zgodna ze zrodlem; Evaluator porownuje od zera tekst co najmniej 30 komorek z roznych tabel i wszystkie akapity wybranych 3 sekcji (po usunieciu znacznikow markdown) i nie znajduje rozbieznosci.
+- **S-R24 (czytelnosc)** Dokument ma orientacje pozioma i czcionke tabel, przy ktorej tabele szerokie (10 kolumn) mieszcza sie na stronie bez obcietych kolumn; wiersz naglowkowy tabel jest powtarzany na kolejnych stronach; Evaluator konwertuje plik do PDF (LibreOffice), renderuje co najmniej 4 strony z roznych tabel do obrazow i je ogladya; tekst czytelny, brak nachodzenia komorek.
+- **S-R25 (brak zmian merytorycznych i neutralnosc, ECHO-027)** Dokument nie zawiera tresci nieobecnej w zrodle (brak dopisanych wnioskow, opinii, rankingu, podsumowan); oznaczenia pewnosci (NIEPOTWIERDZONE, odczyt posredni, BRAK DANYCH) i pogrubienia kluczowych wartosci zachowane; zrodlowy .md ma niezmieniony SHA-256 (fb39254 / hash z Integration RESEARCH-005).
+- **S-R26 (zakres i poprawnosc pliku)** Zmieniony jest tylko plik z allowlisty; skrypty i pliki tymczasowe poza repozytorium (scratchpad); konwersja lokalna (pandoc/python-docx/LibreOffice), bez sieci; plik otwiera sie bez bledu (python-docx i konwersja do PDF); brak sekretow.
+
