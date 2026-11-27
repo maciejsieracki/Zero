@@ -10,6 +10,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 1 z 3 | w toku (workflow) |
 | ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 istnieje zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | 0 z 3 | oczekuje na wolny slot (pula 2); start po zakonczeniu ANALIZA-001 |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Istnieje zweryfikowane zestawienie, ktore generatory (Kling, Seedance, Veo, Sora 2, MiniMax API) tworza dzwiek razem z obrazem, jak obsluguja jezyk polski i czy audio powstaje jednoczesnie z wideo, z ocena pewnosci zrodel | 0 z 3 | oczekuje na wolny slot (pula 2); start po zakonczeniu RESEARCH-001 (zalezy od jego wyniku) |
+| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Istnieje zweryfikowane zestawienie, ktorzy dostawcy wideo (Kling, Seedance, Veo, Sora 2, MiniMax) maja API, SDK i serwer MCP umozliwiajace sterowanie generowaniem z Claude Code, z punktowa ocena gotowosci | 0 z 3 | oczekuje na wolny slot (pula 2); start po RESEARCH-001; kolejnosc kolejki: RESEARCH-002, RESEARCH-003, ANALIZA-002 (do zmiany na polecenie wlasciciela) |
 
 ## Zablokowane / do rozpoczecia
 
