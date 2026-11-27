@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 6 z 6 dla wezla Veo (zgoda wlasciciela ECHO-026) | **w toku (runda 6 z 6, tylko wezel Veo; licznik aktualizuje orkiestrator po zakonczeniu workflow)**: wezly Kling, Sora 2, Seedance, MiniMax PASS (r4-r5); Veo: poprawka oznaczen zrodel rzedu 5 (fal.ai, OpenRouter, Vercel AI Gateway); po wyniku synteza zestawienie_api_mcp.md
+| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | wezly PASS (r4-r6); synteza: w toku (runda 1-3 z 3) | **synteza w toku (licznik aktualizuje orkiestrator po zakonczeniu workflow)**: wszystkie piec wezlow PASS (Kling, Sora 2 w r4; Seedance, MiniMax w r5; Veo w r6, zgoda ECHO-026); powstaje zestawienie_api_mcp.md, Integration zatwierdzi szesc plikow
 
 ## Zablokowane / do rozpoczecia
 
