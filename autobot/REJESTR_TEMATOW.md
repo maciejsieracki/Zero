@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-006-zestawienie-word | Plik Word z zestawieniem zbiorczym (RESEARCH-005): tresc 1:1, czytelne szerokie tabele, bez rankingu | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-029) |
+| (brak aktywnych tematow) | | | |
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
@@ -30,6 +30,7 @@ W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i fil
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo (Kling, Seedance, Veo, Sora 2, MiniMax API) | PASS: wezly po rundzie 5 z 5 (zgody wlasciciela ECHO-019 i ECHO-025), synteza runda 1 z 3 (Evaluator CLEAR, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED, szesc plikow); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-002-audio-i-jezyk-polski (AutoBot, runda 1)"). Wynik: zaden model nie ma udokumentowanego polskiego; najwiecej punktow (9) Kling 4.0 i Seedance 2.5 | Orkiestrator (blad rejestru w r1-3 i pominiecie Operatora w r4 dla wezla Seedance) oraz blokady sieci |
 | ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania generowaniem wideo z Claude Code (Kling, Seedance, Veo, Sora 2, MiniMax) | PASS: wezly po rundach 4-6 (zgody wlasciciela ECHO-019, -025, -026), synteza runda 3 z 3 (Evaluator CLEAR, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED, szesc plikow); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-003-api-i-mcp-sterowanie (AutoBot, runda 3)"). Wynik: Google, Kling i MiniMax po 11/12, Seedance 10/12, Sora 2 niedostepne | Orkiestrator (blad rejestru w r1-3 i pominiecie Operatora w r4) oraz blokady sieci; w syntezie rundy 1-2: bledne punkty K7 Seedance |
 | ZERO-RESEARCH-005-zestawienie-zbiorcze | Jedno zestawienie zbiorcze: model x wszystkie cechy (dlugosc, rozdzielczosc, koszt 1 min Full HD, dzwiek, polski, API/SDK/MCP), bez rankingu i rekomendacji | PASS po rundzie 2 z 3 (obieg z obrona: Evaluator CLEAR, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-005-zestawienie-zbiorcze (AutoBot, runda 2)") | Operator (runda 1: trzy komorki ze zrodlami posrednimi bez oznaczenia NIEPOTWIERDZONE; poprawione) |
+| ZERO-RESEARCH-006-zestawienie-word | Plik Word z zestawieniem zbiorczym (RESEARCH-005): tresc 1:1, czytelne szerokie tabele, bez rankingu | PASS, runda 1 z 3 (obieg z obrona: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-006-zestawienie-word (AutoBot, runda 1)"). Wytwor: `docs/research/ZERO-RESEARCH-005-zestawienie-zbiorcze/zestawienie_zbiorcze.docx` (16 stron, tabela 2 na A3 poziomo) | brak (wezel Operator bez zarzutow) |
 
 ## Liczby obowiazujace
 
