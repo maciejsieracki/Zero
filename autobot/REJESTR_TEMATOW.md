@@ -6,10 +6,9 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 3 z 3 (limit) | **wznowiony za zgoda wlasciciela (ECHO-012): runda 4 z 4 tylko dla Seedance, potem synteza i kontrola koncowa**: wezly Kling, Veo, Sora 2, MiniMax = PASS; Seedance = INFRA we wszystkich 3 rundach (sieć sesji blokuje oficjalne strony BytePlus/Volcengine); synteza nie uruchomiona |
 | ZERO-PROCES-003-komenda-usuwania-plikow | Zweryfikowany skrypt PowerShell usuwajacy z OneDrive wylacznie pliki zasad AutoBot o zgodnej nazwie i hashu, domyslnie podglad, do Kosza | 1 z 3 | w toku (obieg z obrona) |
-| ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
-| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
+| ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
+| ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 
 ## Zablokowane / do rozpoczecia
 
@@ -25,6 +24,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | PASS, runda 1 z 3 (stary obieg bez osobnej obrony i roli Integration); **READY_FOR_DEPLOY** po wlaczeniu przez orkiestratora (commit "Wlacz wytwor ZERO-ANALIZA-001 (AutoBot, runda 1)") | Operator (PROPOZYCJE zapisane w formacie cytatu; brak jawnej linii GOAL w raporcie) |
 | ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | PASS, runda 1 z 3 (obieg z obrona: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-ANALIZA-002-e02-logika-timing-napiecie (AutoBot, runda 1)") | Evaluator (pole z hashem zbiorczym nie dawalo sie odtworzyc; Final Control potwierdzil hashe niezaleznie) |
 | ZERO-PROCES-002-inwentarz-zasad-autobot | Zweryfikowany inwentarz zestawow zasad AutoBot (Autobot.rar, paczka v2, wersja sesji) z lista kasacji i wskazaniem najnowszego zestawu z obrona | PASS po dodatkowym przejsciu (runda 4 z 4, zgoda wlasciciela ECHO-011: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-PROCES-002-inwentarz-zasad-autobot (AutoBot, runda 4)") | Orkiestrator (nieaktualny rejestr i licznik rund w zleceniu w rundach 2-3; zarzuty procesowe Final Control) |
+| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): dlugosc klipu, rozdzielczosc, koszt 1 min Full HD, od najtanszego | PASS po rundzie 4 z 4 (zgoda wlasciciela ECHO-012; Seedance po dopuszczeniu hostow BytePlus/Volcengine; synteza i Final Control ODDAL; Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-001..."). Stary obieg bez osobnej obrony (ECHO-010 pkt 2). Wynik: Sora 2 API wylaczone od 2026-09-24 | Wezel Seedance (INFRA w rundach 1-3: blokada sieci); wczesniej Kling (zla podstawa cen pakietowych w rundzie 1) |
 
 ## Liczby obowiazujace
 
