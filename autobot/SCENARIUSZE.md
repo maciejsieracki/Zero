@@ -54,3 +54,10 @@ Zrodlo kryteriow konca. Sprawdza Evaluator **recznie i od zera, wlasnym narzedzi
 - **S-P4 (roznice vs v2)** Lista roznic funkcjonalnych wzgledem v2 (role, przejscia, checklista Evaluatora, receipts, integracja, orkiestrator) z cytatami i z lista konkretnych regul do przeniesienia do procesu ZERO.
 - **S-P5 (rekomendacje)** Dla kazdego zestawu/pliku: USUNAC / ZACHOWAC / NIE DOTYCZY z uzasadnieniem; rekomendacja USUNAC tylko dla plikow przeczytanych w calosci; archiwum i oryginaly niezmienione (hash przed i po).
 - **S-P6 (bezpieczenstwo)** Zadne skrypty z archiwum nie zostaly uruchomione (.sh, .py, testy, demo), brak sekretow w raporcie, brak zmian poza allowlista.
+
+## Temat ZERO-PROCES-003-komenda-usuwania-plikow
+
+- **S-P7 (lista i hashe)** Lista plikow do usuniecia i ich pelne SHA-256 w skrypcie sa identyczne z lista kasacji (inwentarz, sekcja 7) i hashami z sekcji 8.5; Evaluator sam wyodrebnia te pliki z archiwum Autobot.rar do NOWEGO pustego katalogu i porownuje SHA-256 z hashami wpisanymi w skrypcie.
+- **S-P8 (bezpieczenstwo)** Skrypt domyslnie pracuje w trybie podgladu (nic nie usuwa); usuwa tylko pliki o nazwie i hashu zgodnych z lista; usuwa do Kosza (przywracalnie), pojedynczo, przez -LiteralPath, bez -Recurse, bez wildcardow i bez usuwania katalogow; pomija i raportuje pliki o zgodnej nazwie, ale innym hashu; nie dotyka folderu autobot-skills, pakietu autobot (Python), paczki v2 ani niczego spoza listy; plik zip usuwa tylko gdy obok istnieje folder autobot-skills.
+- **S-P9 (skladnia i zgodnosc)** Skladnia PowerShell sprawdzona parserem (jesli pwsh dostepny w kontenerze) albo jawnie oznaczona NIE URUCHOMIONO z lista ryzyk i przegladem linia po linii; zgodnosc z PowerShell 5.1 i 7; poprawna obsluga sciezki ze spacjami i znakiem "_" (-LiteralPath, cudzyslowy); domyslna sciezka dokladnie `C:\Users\Maciej Sieracki\OneDrive - NASTER S.A\_NOWA_STRUKTURA\Caude`.
+- **S-P10 (uzycie)** README w 5 krokach (wklej, sprawdz tabele podgladu, zmien flage, uruchom, sprawdz Kosz) oraz blok kodu gotowy do wklejenia w czacie; zadne skrypty nie zostaly uruchomione w kontenerze, brak sekretow, brak zmian poza allowlista.

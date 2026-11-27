@@ -6,13 +6,14 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 3 z 3 (limit) | **WSTRZYMANY, czeka na decyzje wlasciciela**: wezly Kling, Veo, Sora 2, MiniMax = PASS; Seedance = INFRA we wszystkich 3 rundach (sieć sesji blokuje oficjalne strony BytePlus/Volcengine); synteza nie uruchomiona |
-| ZERO-PROCES-002-inwentarz-zasad-autobot | Istnieje zweryfikowany inwentarz zestawow zasad AutoBot (Autobot.rar, paczka v2, wersja sesji) | 3 z 3 (limit) | **WSTRZYMANY**: Evaluator w rundzie 2 = CLEAR (10/10, wszystkie scenariusze); Final Control zglosil 2 zarzuty PROCESOWE dotyczace moich zapisow (stan rejestru i licznik rund w zleceniu), ktore Operator slusznie uznal za poza swoim zakresem (BLOCK w rundzie 3); wytwor nie zintegrowany (niezacommitowany) |
+| ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 3 z 3 (limit) | **wznowiony za zgoda wlasciciela (ECHO-012): runda 4 z 4 tylko dla Seedance, potem synteza i kontrola koncowa**: wezly Kling, Veo, Sora 2, MiniMax = PASS; Seedance = INFRA we wszystkich 3 rundach (sieć sesji blokuje oficjalne strony BytePlus/Volcengine); synteza nie uruchomiona |
+| ZERO-PROCES-002-inwentarz-zasad-autobot | Istnieje zweryfikowany inwentarz zestawow zasad AutoBot (Autobot.rar, paczka v2, wersja sesji) | 4 z 4 (zgoda wlasciciela, ECHO-011) | **w toku: Evaluator -> Final Control -> Integration, bez zmian tresci** (poprzednio wstrzymany): Evaluator w rundzie 2 = CLEAR (10/10, wszystkie scenariusze); Final Control zglosil 2 zarzuty PROCESOWE dotyczace moich zapisow (stan rejestru i licznik rund w zleceniu), ktore Operator slusznie uznal za poza swoim zakresem (BLOCK w rundzie 3); wytwor nie zintegrowany (niezacommitowany) |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
 | ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
 
 ## Zablokowane / do rozpoczecia
 
+- ZERO-PROCES-003-komenda-usuwania-plikow — komenda PowerShell do usuniecia nieaktywnych plikow zasad z OneDrive (ECHO-013); start po zamknieciu PROCES-002 (zalezy od listy kasacji i hashy).
 - Temat miedzyodcinkowy E01<->E02 (spojnosc, wiedza widza) — po raporcie ANALIZA-002.
 - Tematy poprawek scenariuszy — po decyzjach kanonicznych wlasciciela.
 - Przejecie najnowszego zestawu zasad (R1-R13 z inwentarza) — osobny temat PROCES po zamknieciu PROCES-002 i decyzji wlasciciela.
