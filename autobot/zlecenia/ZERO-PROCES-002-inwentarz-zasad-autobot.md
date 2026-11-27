@@ -26,4 +26,4 @@ MIEJSCE PRACY: `docs/proces/ZERO-PROCES-002-inwentarz-zasad-autobot/`
 BAZA:          HEAD galezi roboczej
 OBIEG:         Operator -> Evaluator (10 punktow) -> Obrona przy zarzutach -> Final Control (per zarzut) -> Integration (commit allowlisty, bez push)
 
-RUNDA: 0 z 3
+RUNDA: 3 z 3 (limit wyczerpany; wstrzymany — patrz REJESTR_TEMATOW.md; Evaluator r2 = CLEAR, 2 zarzuty procesowe FC dotyczyly zapisow orkiestratora)
