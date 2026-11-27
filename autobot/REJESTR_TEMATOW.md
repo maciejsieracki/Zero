@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-AUDIO-001-e01-audiobook | Gotowy do odczytu tekst audiobooka dla E01 (z opisami wyprowadzonymi ze scenariusza, dialogi bez zmian), PDF, notatka dla lektora i slad dodatkow | 1 z 3 | w toku (obieg z obrona) |
+| ZERO-AUDIO-001-e01-audiobook | Gotowy do odczytu tekst audiobooka dla E01 (z opisami wyprowadzonymi ze scenariusza, dialogi bez zmian), PDF, notatka dla lektora i slad dodatkow | 3 z 3 (limit) | **WSTRZYMANY, czeka na decyzje wlasciciela o dodatkowym przejsciu**: Evaluator r3 = CLEAR (10/10, wszystkie scenariusze); jedyny zarzut Final Control r3 dotyczyl licznika rund w rejestrze (uchybienie orkiestratora, powtorzone); wytwor niezacommitowany |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 | ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 
@@ -44,4 +44,5 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 - Tematy BAZA-001, ANALIZA-001 i RESEARCH-001 przeszly obiegiem bez osobnej obrony (zasady z listy umiejetnosci sesji); od ECHO-010 obowiazuje obieg z obrona (skrypt `zero-autobot-v2`), a PROCES-002 i ANALIZA-002 ida juz nim.
 - **Uchybienie orkiestratora:** w trakcie PROCES-002 nie zaktualizowalem w pore rejestru i licznika rund w zleceniu, przez co Final Control zglosil 2 zarzuty procesowe, a runda 3 zostala zmarnowana. Naprawione w tym zapisie.
 - ANALIZA-002: pierwsze uruchomienie Operatora = INFRA (Operator odpowiedzial na wiadomosc uzytkownika z kontekstu sesji, nic nie zmienil; runda nie zuzyta); dopisano zastrzezenie o zrodle zlecenia do wszystkich rol. Integration w rundzie 1 = INTEGRATION_FAILED z powodu bledu skryptu orkiestratora (hash zbiorczy Evaluatora nie do odtworzenia); poprawiono na hashe per plik i wykonano sam krok Integration (INTEGRATED_VERIFIED).
+- AUDIO-001: powtorzylem uchybienie z PROCES-002 — nie zaktualizowalem licznika rund w rejestrze w trakcie pracy workflow, wiec Final Control zglosil zarzut procesowy we wszystkich trzech rundach (w r3 jedyny). Zapobieganie: przy kolejnych tematach w rejestrze wpisuje od startu "w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow)" i odnotowuje to w zleceniu.
 - Restart kontenera przerwal sesje; trzy workflow (ANALIZA-001, PROCES-002 i wczesniej BAZA/RESEARCH-001) zakonczyly sie przed restartem, a ich wyniki odczytano z plikow wyjsciowych.
