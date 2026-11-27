@@ -14,7 +14,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 - Temat miedzyodcinkowy E01<->E02 (spojnosc, wiedza widza) — po raporcie ANALIZA-002.
 - Tematy poprawek scenariuszy — po decyzjach kanonicznych wlasciciela.
-- ZERO-PROCES-004-przejecie-regul-autobot — przejecie R1-R12 z zachowaniem regul roli orkiestratora (ECHO-015 pkt 3 = A); zlecenie zapisane, w kolejce za RESEARCH-002/-003.
+- ZERO-PROCES-004-przejecie-regul-autobot — pelny, samodzielny plik zasad AutoBot dla innych agentow (autobot/ZASADY_PROCESU.md; ECHO-015..018); zlecenie zapisane, w kolejce za RESEARCH-002/-003 (priorytet wlasciciela: najpierw porownanie systemow wideo).
 
 ## Zamkniete
 
