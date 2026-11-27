@@ -6,6 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
+| ZERO-AUDIO-001-e01-audiobook | Gotowy do odczytu tekst audiobooka dla E01 (z opisami wyprowadzonymi ze scenariusza, dialogi bez zmian), PDF, notatka dla lektora i slad dodatkow | 1 z 3 | w toku (obieg z obrona) |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 | ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | gotowy do startu (RESEARCH-001 zamkniety); wymaga wersji obiegu z wezlami per dostawca |
 
