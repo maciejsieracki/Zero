@@ -7,13 +7,12 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
 | ZERO-RESEARCH-001-porownanie-generatorow-wideo | Istnieje zweryfikowane zestawienie generatorow wideo AI (Kling, Seedance, Veo, Sora 2, MiniMax API): maks. dlugosc klipu, maks. rozdzielczosc, koszt 1 min Full HD w rozliczeniu kredytowym/API, od najtanszego | 3 z 3 (limit) | **wznowiony za zgoda wlasciciela (ECHO-012): runda 4 z 4 tylko dla Seedance, potem synteza i kontrola koncowa**: wezly Kling, Veo, Sora 2, MiniMax = PASS; Seedance = INFRA we wszystkich 3 rundach (sieć sesji blokuje oficjalne strony BytePlus/Volcengine); synteza nie uruchomiona |
-| ZERO-PROCES-002-inwentarz-zasad-autobot | Istnieje zweryfikowany inwentarz zestawow zasad AutoBot (Autobot.rar, paczka v2, wersja sesji) | 4 z 4 (zgoda wlasciciela, ECHO-011) | **w toku: Evaluator -> Final Control -> Integration, bez zmian tresci** (poprzednio wstrzymany): Evaluator w rundzie 2 = CLEAR (10/10, wszystkie scenariusze); Final Control zglosil 2 zarzuty PROCESOWE dotyczace moich zapisow (stan rejestru i licznik rund w zleceniu), ktore Operator slusznie uznal za poza swoim zakresem (BLOCK w rundzie 3); wytwor nie zintegrowany (niezacommitowany) |
+| ZERO-PROCES-003-komenda-usuwania-plikow | Zweryfikowany skrypt PowerShell usuwajacy z OneDrive wylacznie pliki zasad AutoBot o zgodnej nazwie i hashu, domyslnie podglad, do Kosza | 1 z 3 | w toku (obieg z obrona) |
 | ZERO-RESEARCH-002-audio-i-jezyk-polski | Zestawienie: dzwiek razem z obrazem, jezyk polski, jednoczesnosc audio i wideo | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
 | ZERO-RESEARCH-003-api-i-mcp-sterowanie | Zestawienie: API, SDK i serwery MCP do sterowania z Claude Code | 0 z 3 | zablokowany: zalezy od wyniku RESEARCH-001 |
 
 ## Zablokowane / do rozpoczecia
 
-- ZERO-PROCES-003-komenda-usuwania-plikow — komenda PowerShell do usuniecia nieaktywnych plikow zasad z OneDrive (ECHO-013); start po zamknieciu PROCES-002 (zalezy od listy kasacji i hashy).
 - Temat miedzyodcinkowy E01<->E02 (spojnosc, wiedza widza) — po raporcie ANALIZA-002.
 - Tematy poprawek scenariuszy — po decyzjach kanonicznych wlasciciela.
 - Przejecie najnowszego zestawu zasad (R1-R13 z inwentarza) — osobny temat PROCES po zamknieciu PROCES-002 i decyzji wlasciciela.
@@ -25,6 +24,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ZERO-BAZA-001-import-scenariuszy | Trzy aktualne scenariusze (`_rev`) w `scenariusze/` bajt w bajt zgodne z archiwum zrodlowym | PASS, runda 1 z 3; **READY_FOR_DEPLOY** (commit "Wlacz baze scenariuszy (ZERO-BAZA-001)...") | Operator (skrocone hashe w raporcie; Evaluator i Final Control powtorzyly dowody) |
 | ZERO-ANALIZA-001-e01-logika-timing-napiecie | Dla E01 zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | PASS, runda 1 z 3 (stary obieg bez osobnej obrony i roli Integration); **READY_FOR_DEPLOY** po wlaczeniu przez orkiestratora (commit "Wlacz wytwor ZERO-ANALIZA-001 (AutoBot, runda 1)") | Operator (PROPOZYCJE zapisane w formacie cytatu; brak jawnej linii GOAL w raporcie) |
 | ZERO-ANALIZA-002-e02-logika-timing-napiecie | Dla E02 zweryfikowany raport: logika, timing i napiecie z cytatami i wariantami naprawy | PASS, runda 1 z 3 (obieg z obrona: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-ANALIZA-002-e02-logika-timing-napiecie (AutoBot, runda 1)") | Evaluator (pole z hashem zbiorczym nie dawalo sie odtworzyc; Final Control potwierdzil hashe niezaleznie) |
+| ZERO-PROCES-002-inwentarz-zasad-autobot | Zweryfikowany inwentarz zestawow zasad AutoBot (Autobot.rar, paczka v2, wersja sesji) z lista kasacji i wskazaniem najnowszego zestawu z obrona | PASS po dodatkowym przejsciu (runda 4 z 4, zgoda wlasciciela ECHO-011: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-PROCES-002-inwentarz-zasad-autobot (AutoBot, runda 4)") | Orkiestrator (nieaktualny rejestr i licznik rund w zleceniu w rundach 2-3; zarzuty procesowe Final Control) |
 
 ## Liczby obowiazujace
 
