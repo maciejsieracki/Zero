@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-008-omni-vs-kling-jakosc | Porownania Gemini Omni 1.2 Flash i Kling 4.0: jakosc wideo, synchronizacja z dzwiekiem, glosy i polski; zrodla niezalezne jako NIEPOTWIERDZONE; bez rankingu | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-034); wiele stron niezaleznych zablokowanych w sieci sesji — odczyt w duzej mierze posredni |
+| (brak aktywnych tematow) | | | |
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
@@ -32,6 +32,7 @@ W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i fil
 | ZERO-RESEARCH-005-zestawienie-zbiorcze | Jedno zestawienie zbiorcze: model x wszystkie cechy (dlugosc, rozdzielczosc, koszt 1 min Full HD, dzwiek, polski, API/SDK/MCP), bez rankingu i rekomendacji | PASS po rundzie 2 z 3 (obieg z obrona: Evaluator CLEAR, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-005-zestawienie-zbiorcze (AutoBot, runda 2)") | Operator (runda 1: trzy komorki ze zrodlami posrednimi bez oznaczenia NIEPOTWIERDZONE; poprawione) |
 | ZERO-RESEARCH-006-zestawienie-word | Plik Word z zestawieniem zbiorczym (RESEARCH-005): tresc 1:1, czytelne szerokie tabele, bez rankingu | PASS, runda 1 z 3 (obieg z obrona: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-006-zestawienie-word (AutoBot, runda 1)"). Wytwor: `docs/research/ZERO-RESEARCH-005-zestawienie-zbiorcze/zestawienie_zbiorcze.docx` (16 stron, tabela 2 na A3 poziomo) | brak (wezel Operator bez zarzutow) |
 | ZERO-RESEARCH-007-zestawienie-aktualne | Zestawienie zbiorcze (.md i .docx) tylko z najnowsza, aktualnie dostepna generacja kazdego systemu w grze; bez Sora 2 i odpadajacych modeli; bez rankingu | PASS po rundzie 4 z 4 (zgoda wlasciciela ECHO-032; Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-007-zestawienie-aktualne (AutoBot, runda 4)"). Pytanie 11 (usuniecie Veo) czeka na odpowiedz wlasciciela | Orkiestrator (nieaktualny opis tematu w rejestrze w rundach 1-3 po ECHO-031); Operator (r1: usuniete aktywne warianty MiniMax-H3, r2: falszywe "brak sprzecznosci") |
+| ZERO-RESEARCH-008-omni-vs-kling-jakosc | Porownania Gemini Omni 1.2 Flash i Kling 4.0: jakosc wideo, synchronizacja z dzwiekiem, glosy i polski; zrodla niezalezne jako NIEPOTWIERDZONE; bez rankingu | PASS po rundzie 2 z 3 (obieg z obrona: Evaluator CLEAR 10/10, Final Control bez zarzutow, Integration INTEGRATED_VERIFIED); **READY_FOR_DEPLOY** (commit "Wlacz wytwor ZERO-RESEARCH-008-omni-vs-kling-jakosc (AutoBot, runda 2)"). Odczyt w duzej mierze posredni (wyszukiwarka; wiele hostow zablokowanych) | Operator (runda 1: wpis MindStudio przypisany do zlej wersji Klinga; poprawiony) |
 
 ## Liczby obowiazujace
 
