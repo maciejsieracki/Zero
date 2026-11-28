@@ -32,6 +32,6 @@ ZAKAZANE BEZWZGLEDNIE: `scenariusze/`, `autobot/`, `docs/analiza/`, `docs/resear
 
 MIEJSCE PRACY: `docs/produkcja/pakiet/`
 BAZA:          HEAD galezi roboczej
-OBIEG:         Operator -> Evaluator (10 punktow) -> Obrona przy zarzutach -> Final Control (per zarzut); Integration zbiorczo po fali (jeden commit z hashami per plik)
+OBIEG:         Operator -> Evaluator (10 punktow) -> Obrona przy zarzutach -> Final Control (per zarzut) -> Integration (osobny commit na temat, ECHO-042)
 
-RUNDA: w kolejce (fala 3); rundy 1-3 z 3; licznik w rejestrze aktualizuje orkiestrator po zakonczeniu workflow
+RUNDA: w kolejce, Sonnet 5.5 (ECHO-042) (fala 3); rundy 1-3 z 3; licznik w rejestrze aktualizuje orkiestrator po zakonczeniu workflow
