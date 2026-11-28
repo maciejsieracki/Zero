@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| (brak aktywnych tematow) | | | |
+| ZERO-ANALIZA-003-produkcja-e01-spojnosc | Raport spojnosci i kompletnosci materialow produkcyjnych E01 (wgrane przez wlasciciela i z archiwum) wzgledem scenariusza E01 i decyzji; luki i propozycje rozbudowy; przenoszalnosc na Seedance | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-035); pytanie 12 (zakres wsadu dla Seedance) czeka na raport |
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
