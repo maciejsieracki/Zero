@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| (brak aktywnych tematow) | | | |
+| ZERO-RESEARCH-008-omni-vs-kling-jakosc | Porownania Gemini Omni 1.2 Flash i Kling 4.0: jakosc wideo, synchronizacja z dzwiekiem, glosy i polski; zrodla niezalezne jako NIEPOTWIERDZONE; bez rankingu | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-034); wiele stron niezaleznych zablokowanych w sieci sesji — odczyt w duzej mierze posredni |
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
