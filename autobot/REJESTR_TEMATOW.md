@@ -9,7 +9,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ZERO-ANALIZA-003-produkcja-e01-spojnosc | Raport spojnosci i kompletnosci materialow produkcyjnych E01 (wgrane przez wlasciciela i z archiwum) wzgledem scenariusza E01 i decyzji; luki i propozycje rozbudowy; przenoszalnosc na Seedance | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-035); pytanie 12 (zakres wsadu dla Seedance) czeka na raport |
 | ZERO-PROD-002-scena1-kling | Plik produkcyjny Sceny 1 E01 dla Kling 4.0: os czasu w milisekundach, prompty ujec EN (MCP i API), Elements, weryfikacja, "co jeszcze dolozyc" | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku rownolegle z ANALIZA-003 (pula 2); obieg z obrona (ECHO-036, ECHO-037); odpowiada na pytanie 12 (wariant B, Kling) |
 
-W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
+W kolejce: **ZERO-PROD-003-scena1-kling-tekst** (wersja .txt pliku Sceny 1 dla Klinga do zalaczenia; po zamknieciu PROD-002; ECHO-038); PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
 ## Zablokowane / do rozpoczecia
 
