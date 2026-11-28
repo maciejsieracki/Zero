@@ -18,7 +18,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 - fala 2: pary 012+013, 014+015, 016+024 (karta-sceny-1, arkusz-dialogow-s1, arkusz-sygnalow-s1, arkusz-ciaglosci-s1, paczka-referencji-s1, kadry-uzupelniajace-s1)
 - fala 3: pary 017+018, 019+020, 021+022 (tracker-produkcji, kontrola-jakosci, plan-montazu, polski-glos, muzyka-grade-eksport, wersje-testy)
 
-**Podzial na ujecia (ECHO-044) — 24 tematy w kolejce:** ZERO-UJECIA-001..023 (jedna sekwencja E01 na temat, bez Sceny 1: Scena 2, P1, Scena 3, Scena 4, T-10, Scena 5, P2, Scena 6, T-7, P3, Scena 7, Scena 8, T-5, P4, Scena 9, Scena 10, Scena 11, Scena 12, Scena 13, T-1, Zero Day, Scena 15), potem ZERO-UJECIA-024-tabela-zbiorcza; start razem z fala 2 pakietu, przed fala 3.
+**Podzial na ujecia (ECHO-044) — 23 tematy w kolejce:** ZERO-UJECIA-001..022 (jedna sekwencja E01 na temat, bez Sceny 1: Scena 2, P1, Scena 3, Scena 4, T-10, Scena 5, P2, Scena 6, T-7, P3, Scena 7, Scena 8, T-5, P4, Scena 9, Scena 10, Scena 11, Scena 12, Scena 13, T-1, Zero Day, Scena 15), potem ZERO-UJECIA-023-tabela-zbiorcza; start razem z fala 2 pakietu, przed fala 3.
 
 W kolejce: **ZERO-PLAN-002-pakiet-produkcyjny** (pelny katalog plikow potrzebnych do stworzenia filmu, ujety jak rezyser; po ANALIZA-003; ECHO-039); **ZERO-PROD-003-scena1-kling-tekst** (wersja .txt pliku Sceny 1 dla Klinga do zalaczenia; po zamknieciu PROD-002; ECHO-038); PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
