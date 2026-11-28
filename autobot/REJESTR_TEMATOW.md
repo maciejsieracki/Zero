@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-007-zestawienie-aktualne | Zestawienie zbiorcze (.md i .docx) tylko z najnowsza, aktualnie dostepna generacja kazdego systemu; Sora 2 jako nota; bez rankingu | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-030); poprawia wytwor RESEARCH-005/-006 w miejscu |
+| ZERO-RESEARCH-007-zestawienie-aktualne | Zestawienie zbiorcze (.md i .docx) tylko z najnowsza, aktualnie dostepna generacja kazdego systemu w grze; Sora 2 i inne odpadajace modele nie wystepuja w pliku w ogole (ECHO-031); bez rankingu | 3 z 3 wyczerpane (limit rund) | **WSTRZYMANY, czeka na zgode wlasciciela na dodatkowe przejscie**: Evaluator CLEAR 10/10 w rundzie 3; Final Control: wytwor bez zarzutow merytorycznych, jedyny zarzut to nieaktualny opis tematu w rejestrze (mój blad, naprawiony w tym zapisie); wytwor (zmodyfikowane .md i .docx) lezy niezacommitowany w katalogu roboczym, Integration nie wykonana
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
@@ -52,3 +52,4 @@ W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i fil
 - AUDIO-001: powtorzylem uchybienie z PROCES-002 — nie zaktualizowalem licznika rund w rejestrze w trakcie pracy workflow, wiec Final Control zglosil zarzut procesowy we wszystkich trzech rundach (w r3 jedyny). Zapobieganie: przy kolejnych tematach w rejestrze wpisuje od startu "w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow)" i odnotowuje to w zleceniu.
 - Restart kontenera przerwal sesje; trzy workflow (ANALIZA-001, PROCES-002 i wczesniej BAZA/RESEARCH-001) zakonczyly sie przed restartem, a ich wyniki odczytano z plikow wyjsciowych.
 - RESEARCH-002/-003 runda 4: **uchybienie orkiestratora** — dla wezlow z wytworem z rundy 3 ustawilem preset_op ("brak zmian"), mimo ze wytyczne rundy 4 wymagaly ponownego odczytu bezposredniego; Operator nie zostal uruchomiony, wiec Evaluator i Final Control slusznie zglosily zarzuty (Seedance R2, MiniMax R3). Runda zmarnowana; naprawa wymaga zgody wlasciciela na kolejne przejscie.
+- RESEARCH-007: **uchybienie orkiestratora** — po sprostowaniu ECHO-031 (Sora 2 nie wystepuje w pliku w ogole) nie poprawilem opisu tematu w rejestrze (zostalo 'Sora 2 jako nota'); Final Control zglosil to jako zarzut procesowy w rundach 1-3 i zablokowal zamkniecie mimo CLEAR Evaluatora. Naprawione; kolejne przejscie wymaga zgody wlasciciela.
