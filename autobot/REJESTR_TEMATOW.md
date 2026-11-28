@@ -6,12 +6,14 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
+| ZERO-PAKIET-002-przewodnik-wizualny | A02 przewodnik wizualny | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku, Sonnet 5.5 (ECHO-042/043), fala 1 |
+| ZERO-PAKIET-003-biblia-postaci | A03 biblia postaci z arkuszami referencji | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku, Sonnet 5.5 (ECHO-042/043), fala 1 |
 | ZERO-PAKIET-001-biblia-serialu | A01 biblia serialu (pakiet produkcyjny E01) | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku, Sonnet 5.5 (ECHO-042), fala 1 para 1; raport ANALIZA-003 uzyty jako wejscie rank 4 (po kontroli Evaluatora, bez zamkniecia) |
 | ZERO-PAKIET-011-rejestr-decyzji | E01 rejestr decyzji kanonicznych | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku, Sonnet 5.5 (ECHO-042), fala 1 para 1 |
 | ZERO-ANALIZA-003-produkcja-e01-spojnosc | Raport spojnosci i kompletnosci materialow produkcyjnych E01 (wgrane przez wlasciciela i z archiwum) wzgledem scenariusza E01 i decyzji; luki i propozycje rozbudowy; przenoszalnosc na Kling 4.0 (ECHO-037) | 3 z 3 wyczerpane (limit rund) | **WSTRZYMANY, czeka na zgode wlasciciela na dodatkowe przejscie zamykajace**: raport po kontroli Evaluatora (CLEAR w rundzie 2; zarzuty z rundy 1 o sc. 15 i sume 1332 s naprawione); w rundach 1-3 Final Control zglaszal jako zarzut procesowy nieaktualny opis tematu w tym rejestrze (Seedance zamiast Kling) — moj blad, naprawiony w tym zapisie; pliki raport.md i tabela_rozbieznosci.md lezą niezacommitowane, Integration niewykonana |
 
 
-**Pakiet produkcyjny (ECHO-040, ECHO-041, ECHO-042) — 24 tematy w kolejce; model Sonnet 5.5, pula 2, para po parze; start po zamknieciu ANALIZA-003 i PROD-002:**
+**Pakiet produkcyjny (ECHO-040, ECHO-041, ECHO-042) — 24 tematy w kolejce; model Sonnet 5.5, pula 4 (ECHO-043), kolejne tematy startuja od razu, gdy jest wolne miejsce; w toku: 001, 011, 002, 003:**
 - fala 1: pary 001+011, 002+003, 005+006, 004+007, 008+023, 009+010 (PAKIET-001-biblia-serialu, -011-rejestr-decyzji, -002-przewodnik-wizualny, -003-biblia-postaci, -005-biblia-lokacji, -006-biblia-rekwizytow, -004-arkusze-glosow, -007-biblia-dzwieku, -008-przewodnik-promptow-kling, -023-katalog-ujec-uzupelniajacych, -009-budzet, -010-prawa-licencje)
 - fala 2: pary 012+013, 014+015, 016+024 (karta-sceny-1, arkusz-dialogow-s1, arkusz-sygnalow-s1, arkusz-ciaglosci-s1, paczka-referencji-s1, kadry-uzupelniajace-s1)
 - fala 3: pary 017+018, 019+020, 021+022 (tracker-produkcji, kontrola-jakosci, plan-montazu, polski-glos, muzyka-grade-eksport, wersje-testy)
