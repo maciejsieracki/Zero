@@ -1,3 +1,5 @@
+**ANULOWANY (ECHO-037, 2026-11-28): bledne narzedzie docelowe — wlasciciel mial na mysli Kling. Brak wytworu; zastapiony tematem ZERO-PROD-002-scena1-kling.**
+
 # ZERO-PROD-001-scena1-seedance
 
 WYZWALACZ:  decyzja wlasciciela ECHO-036 (2026-11-28): plik wsadowy dla Seedance dla pierwszej sceny E01, z osia czasu co do milisekundy (kwestie, dzwieki tla, zdarzenia obrazu) i z propozycja, co jeszcze dolozyc.
