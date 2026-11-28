@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| (brak aktywnych tematow) | | | |
+| ZERO-RESEARCH-007-zestawienie-aktualne | Zestawienie zbiorcze (.md i .docx) tylko z najnowsza, aktualnie dostepna generacja kazdego systemu; Sora 2 jako nota; bez rankingu | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-030); poprawia wytwor RESEARCH-005/-006 w miejscu |
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
