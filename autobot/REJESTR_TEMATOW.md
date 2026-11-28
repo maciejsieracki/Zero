@@ -7,6 +7,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
 | ZERO-ANALIZA-003-produkcja-e01-spojnosc | Raport spojnosci i kompletnosci materialow produkcyjnych E01 (wgrane przez wlasciciela i z archiwum) wzgledem scenariusza E01 i decyzji; luki i propozycje rozbudowy; przenoszalnosc na Seedance | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku: obieg z obrona (ECHO-035); pytanie 12 (zakres wsadu dla Seedance) czeka na raport |
+| ZERO-PROD-001-scena1-seedance | Plik produkcyjny Sceny 1 E01 dla Seedance 2.5: os czasu w milisekundach (24 fps), prompty ujec EN, referencje, weryfikacja, "co jeszcze dolozyc" | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku rownolegle z ANALIZA-003 (pula 2); obieg z obrona (ECHO-036); odpowiada na pytanie 12 (wariant B) |
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
