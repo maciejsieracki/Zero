@@ -2,7 +2,7 @@
 
 WYZWALACZ:  decyzja wlasciciela ECHO-040 (2026-11-28): rozpisac pakiet produkcyjny; ta pozycja = punkt 18 ("Prawa i licencje"); fala 1.
 GOAL:       Istnieje zweryfikowany plik `docs/produkcja/pakiet/C04_prawa_i_licencje.md`: Prawa i licencje dla odcinka E01 serialu ZERO (narzedzie docelowe Kling 4.0), kompletny wg specyfikacji zlecenia, oparty na scenariuszu E01 i zatwierdzonych materialach, z propozycjami reżyserskimi oznaczonymi jako PROPOZYCJA, jawnymi rozbieznosciami zrodel i pytaniami ABC do wlasciciela, bez nowych faktow kanonu.
-KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
+KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5, S-D7 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
 
 WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > decyzje wlasciciela ECHO > raport ANALIZA-003 i dokumenty produkcyjne rank 4; sprzecznosci zapisuj jawnie z dwoma cytatami, nie rozstrzygaj):
  - `scenariusze/ZERO_mini_serial_E01_ADAM_rev.md` i `MANIFEST.sha256`; `docs/analiza/ZERO-ANALIZA-001-e01-logika-timing-napiecie/` (raport.md, tabela_scen.md); `docs/analiza/ZERO-ANALIZA-003-produkcja-e01-spojnosc/` (raport.md, tabela_rozbieznosci.md — luki i rozbieznosci materialow produkcyjnych);
@@ -14,6 +14,8 @@ WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > dec
 
 ZADANIE: utworz plik `docs/produkcja/pakiet/C04_prawa_i_licencje.md` (po polsku; nazwy techniczne bez znakow diakrytycznych; prompty i dialogi do wklejenia po angielsku). Zawartosc: Lista kontrolna praw i licencji dla produkcji: muzyka (motywy do licencjonowania lub kompozycji), glosy (prawa do syntetycznych glosow i polskiego dubbingu — zawartosc warunkow uslug do sprawdzenia przez wlasciciela, bez wymyslania ich tresci), warunki i filtry tresci modeli (z badan; temat RESEARCH-004 jest osobny i nie zamkniety), podobizny i realne marki do zamiany (lista z ANALIZA-001/-002 i PLAN_WDROZENIA), oznaczenie tresci wygenerowanych przez AI, dane osobowe, prawa do scenariusza i materialow; kazda pozycja: co sprawdzic, gdzie, kto decyduje, status (nieznany/do sprawdzenia). To nie jest porada prawna; zaznacz to na poczatku. Bez twierdzen o tresci regulaminow z pamieci.
  Na poczatku pliku: naglowek z ID tematu, data (2026-11-28), zakres, zrodla (lista plikow wejsciowych z hashami SHA-256) i legenda oznaczen (PROPOZYCJA REZYSERSKA, BRAK DANYCH, rozbieznosc zrodel). Na koncu: lista pytan ABC do wlasciciela, powiazania z innymi plikami pakietu i lista "Co jeszcze dolozyc".
+
+WYMOG DODATKOWY (ECHO-041, scenariusz S-D7): plik musi zawierac sekcje "Kadry bez postaci i przejscia" ze wpisami dla swojej dziedziny: Prawa do kadrow bez postaci: znaki towarowe i szyldy w tle (Nowy Swiat), logo i marki w kadrze, reklamy, tlumy i twarze przypadkowe, wsparcie ostrzezen o realnych markach.  Elementy spoza scenariusza oznacz PROPOZYCJA REZYSERSKA.
 
 REGULA PRZECIW SAMOOSZUKIWANIU:
  - Zakaz dopisywania faktow kanonu (imion, dat, zdarzen, dialogow); elementy "od rezysera" oznacz PROPOZYCJA REZYSERSKA; decyzje kanoniczne i produktowe tylko jako pytania ABC do wlasciciela (G2, G3); kanon dialogow bez zmian.

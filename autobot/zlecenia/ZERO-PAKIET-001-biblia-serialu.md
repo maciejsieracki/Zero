@@ -2,7 +2,7 @@
 
 WYZWALACZ:  decyzja wlasciciela ECHO-040 (2026-11-28): rozpisac pakiet produkcyjny; ta pozycja = punkt 1 ("Biblia serialu"); fala 1.
 GOAL:       Istnieje zweryfikowany plik `docs/produkcja/pakiet/A01_biblia_serialu.md`: Biblia serialu dla odcinka E01 serialu ZERO (narzedzie docelowe Kling 4.0), kompletny wg specyfikacji zlecenia, oparty na scenariuszu E01 i zatwierdzonych materialach, z propozycjami reżyserskimi oznaczonymi jako PROPOZYCJA, jawnymi rozbieznosciami zrodel i pytaniami ABC do wlasciciela, bez nowych faktow kanonu.
-KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
+KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5, S-D7 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
 
 WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > decyzje wlasciciela ECHO > raport ANALIZA-003 i dokumenty produkcyjne rank 4; sprzecznosci zapisuj jawnie z dwoma cytatami, nie rozstrzygaj):
  - `scenariusze/ZERO_mini_serial_E01_ADAM_rev.md` i `MANIFEST.sha256`; `docs/analiza/ZERO-ANALIZA-001-e01-logika-timing-napiecie/` (raport.md, tabela_scen.md); `docs/analiza/ZERO-ANALIZA-003-produkcja-e01-spojnosc/` (raport.md, tabela_rozbieznosci.md — luki i rozbieznosci materialow produkcyjnych);
@@ -14,6 +14,8 @@ WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > dec
 
 ZADANIE: utworz plik `docs/produkcja/pakiet/A01_biblia_serialu.md` (po polsku; nazwy techniczne bez znakow diakrytycznych; prompty i dialogi do wklejenia po angielsku). Zawartosc: Biblia serialu: logline, premisa, motywy i ton; zasady stale (bez muzyki w klipach, cisza jako narzedzie, dwa tory E01, zasady E02 jak "bez mezczyzn w kadrze" tylko jako informacja o serialu); struktura odcinkow E01-E02 (E03 poza zakresem — jedna linia); os swiata i czasu (T minus, bloki przeszlosci) z odnosnikami; rejestr faktow kanonicznych potrzebnych modelowi i montazowi (osoby, relacje, wiek, miejsca) w tabeli ze zrodlami; lista rozbieznosci kanonicznych z odnosnikiem do pozycji E01 (rejestr decyzji); jak uzywac pakietu (mapa plikow A-E).
  Na poczatku pliku: naglowek z ID tematu, data (2026-11-28), zakres, zrodla (lista plikow wejsciowych z hashami SHA-256) i legenda oznaczen (PROPOZYCJA REZYSERSKA, BRAK DANYCH, rozbieznosc zrodel). Na koncu: lista pytan ABC do wlasciciela, powiazania z innymi plikami pakietu i lista "Co jeszcze dolozyc".
+
+WYMOG DODATKOWY (ECHO-041, scenariusz S-D7): plik musi zawierac sekcje "Kadry bez postaci i przejscia" ze wpisami dla swojej dziedziny: Biblia serialu: zasada wizualna 'kadry bez postaci i przejscia' jako filar realnego wygladu filmu (rola, rytm) i odnosnik do A02, A09, B07.  Elementy spoza scenariusza oznacz PROPOZYCJA REZYSERSKA.
 
 REGULA PRZECIW SAMOOSZUKIWANIU:
  - Zakaz dopisywania faktow kanonu (imion, dat, zdarzen, dialogow); elementy "od rezysera" oznacz PROPOZYCJA REZYSERSKA; decyzje kanoniczne i produktowe tylko jako pytania ABC do wlasciciela (G2, G3); kanon dialogow bez zmian.

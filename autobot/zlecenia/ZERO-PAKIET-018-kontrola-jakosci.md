@@ -2,7 +2,7 @@
 
 WYZWALACZ:  decyzja wlasciciela ECHO-040 (2026-11-28): rozpisac pakiet produkcyjny; ta pozycja = punkt 16 ("Kontrola jakosci"); fala 3.
 GOAL:       Istnieje zweryfikowany plik `docs/produkcja/pakiet/C02_kontrola_jakosci.md`: Kontrola jakosci dla odcinka E01 serialu ZERO (narzedzie docelowe Kling 4.0), kompletny wg specyfikacji zlecenia, oparty na scenariuszu E01 i zatwierdzonych materialach, z propozycjami reżyserskimi oznaczonymi jako PROPOZYCJA, jawnymi rozbieznosciami zrodel i pytaniami ABC do wlasciciela, bez nowych faktow kanonu.
-KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
+KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5, S-D7 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
 
 WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > decyzje wlasciciela ECHO > raport ANALIZA-003 i dokumenty produkcyjne rank 4; sprzecznosci zapisuj jawnie z dwoma cytatami, nie rozstrzygaj):
  - `scenariusze/ZERO_mini_serial_E01_ADAM_rev.md` i `MANIFEST.sha256`; `docs/analiza/ZERO-ANALIZA-001-e01-logika-timing-napiecie/` (raport.md, tabela_scen.md); `docs/analiza/ZERO-ANALIZA-003-produkcja-e01-spojnosc/` (raport.md, tabela_rozbieznosci.md — luki i rozbieznosci materialow produkcyjnych);
@@ -14,6 +14,8 @@ WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > dec
 
 ZADANIE: utworz plik `docs/produkcja/pakiet/C02_kontrola_jakosci.md` (po polsku; nazwy techniczne bez znakow diakrytycznych; prompty i dialogi do wklejenia po angielsku). Zawartosc: Kontrola jakosci klipu i sceny: checklista po kazdym klipie (twarz i tozsamosc, strony L/P, jeden dinozaur, rekwizyty, tlo, swiatlo, ruch, artefakty, lip-sync, mowca, tresc kwestii po transkrypcji ze znacznikami slow, tlo dzwiekowe, brak muzyki, dlugosc), progi i tolerancje (start kwestii +/- 2 klatki, itd. jako PROPOZYCJA z uzasadnieniem), procedura pomiaru (transkrypcja ze znacznikami slow, porownanie z osia czasu), kryteria akceptacji i powtorki (ile prob), formularz oceny, kryteria przejscia z pilota do Sceny 1; kontrola ciaglosci miedzy klipami.
  Na poczatku pliku: naglowek z ID tematu, data (2026-11-28), zakres, zrodla (lista plikow wejsciowych z hashami SHA-256) i legenda oznaczen (PROPOZYCJA REZYSERSKA, BRAK DANYCH, rozbieznosc zrodel). Na koncu: lista pytan ABC do wlasciciela, powiazania z innymi plikami pakietu i lista "Co jeszcze dolozyc".
+
+WYMOG DODATKOWY (ECHO-041, scenariusz S-D7): plik musi zawierac sekcje "Kadry bez postaci i przejscia" ze wpisami dla swojej dziedziny: Kontrola jakosci kadrow bez postaci: brak przypadkowych postaci i twarzy, ciaglosc tla, ruch kamery i tla, realizm, brak napisow i znakow w kadrze; kryteria akceptacji.  Elementy spoza scenariusza oznacz PROPOZYCJA REZYSERSKA.
 
 REGULA PRZECIW SAMOOSZUKIWANIU:
  - Zakaz dopisywania faktow kanonu (imion, dat, zdarzen, dialogow); elementy "od rezysera" oznacz PROPOZYCJA REZYSERSKA; decyzje kanoniczne i produktowe tylko jako pytania ABC do wlasciciela (G2, G3); kanon dialogow bez zmian.

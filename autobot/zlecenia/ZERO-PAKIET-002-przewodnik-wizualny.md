@@ -2,7 +2,7 @@
 
 WYZWALACZ:  decyzja wlasciciela ECHO-040 (2026-11-28): rozpisac pakiet produkcyjny; ta pozycja = punkt 2 ("Przewodnik wizualny"); fala 1.
 GOAL:       Istnieje zweryfikowany plik `docs/produkcja/pakiet/A02_przewodnik_wizualny.md`: Przewodnik wizualny dla odcinka E01 serialu ZERO (narzedzie docelowe Kling 4.0), kompletny wg specyfikacji zlecenia, oparty na scenariuszu E01 i zatwierdzonych materialach, z propozycjami reżyserskimi oznaczonymi jako PROPOZYCJA, jawnymi rozbieznosciami zrodel i pytaniami ABC do wlasciciela, bez nowych faktow kanonu.
-KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
+KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5, S-D7 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
 
 WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > decyzje wlasciciela ECHO > raport ANALIZA-003 i dokumenty produkcyjne rank 4; sprzecznosci zapisuj jawnie z dwoma cytatami, nie rozstrzygaj):
  - `scenariusze/ZERO_mini_serial_E01_ADAM_rev.md` i `MANIFEST.sha256`; `docs/analiza/ZERO-ANALIZA-001-e01-logika-timing-napiecie/` (raport.md, tabela_scen.md); `docs/analiza/ZERO-ANALIZA-003-produkcja-e01-spojnosc/` (raport.md, tabela_rozbieznosci.md — luki i rozbieznosci materialow produkcyjnych);
@@ -14,6 +14,8 @@ WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > dec
 
 ZADANIE: utworz plik `docs/produkcja/pakiet/A02_przewodnik_wizualny.md` (po polsku; nazwy techniczne bez znakow diakrytycznych; prompty i dialogi do wklejenia po angielsku). Zawartosc: Przewodnik wizualny: format 16:9 i parametry techniczne wg zatwierdzonych badan; paleta, swiatlo, kolor i faktura dla kazdego wątku (teraznosc Warszawy zlocista, Oslo zimne, bloki przeszlosci cieplejsze z ziarnem, wstawki TV gorszej jakosci i zmiana formatu), kontrasty i zmiana temperatury barwnej przy cieciach; jezyk kamery dla wątkow (reczna/stabilna/statyczna, rodzaje planow, ruch); slownik przejsc (CUT, SMASH CUT, DISSOLVE, twarde cieciew czern) z mapa uzycia; lista materialow nastroju do przygotowania (bez generowania); zasady spojnosci obrazu miedzy ujeciami. Wartosci kolorow i obiektywow jako PROPOZYCJA REZYSERSKA.
  Na poczatku pliku: naglowek z ID tematu, data (2026-11-28), zakres, zrodla (lista plikow wejsciowych z hashami SHA-256) i legenda oznaczen (PROPOZYCJA REZYSERSKA, BRAK DANYCH, rozbieznosc zrodel). Na koncu: lista pytan ABC do wlasciciela, powiazania z innymi plikami pakietu i lista "Co jeszcze dolozyc".
+
+WYMOG DODATKOWY (ECHO-041, scenariusz S-D7): plik musi zawierac sekcje "Kadry bez postaci i przejscia" ze wpisami dla swojej dziedziny: Slownik ujec i jezyk kamery rozszerzony o kadry bez postaci (establishing, detal/insert, przejsciowy, pusty po wyjsciu, atmosfera, przebitka) oraz rytm ich uzycia w kazdym watku; biblioteka przejsc wizualnych z zasadami (zmiana temperatury barwnej, match cut).  Elementy spoza scenariusza oznacz PROPOZYCJA REZYSERSKA.
 
 REGULA PRZECIW SAMOOSZUKIWANIU:
  - Zakaz dopisywania faktow kanonu (imion, dat, zdarzen, dialogow); elementy "od rezysera" oznacz PROPOZYCJA REZYSERSKA; decyzje kanoniczne i produktowe tylko jako pytania ABC do wlasciciela (G2, G3); kanon dialogow bez zmian.

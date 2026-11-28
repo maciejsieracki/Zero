@@ -2,7 +2,7 @@
 
 WYZWALACZ:  decyzja wlasciciela ECHO-040 (2026-11-28): rozpisac pakiet produkcyjny; ta pozycja = punkt 4 ("Arkusze glosow"); fala 1.
 GOAL:       Istnieje zweryfikowany plik `docs/produkcja/pakiet/A04_arkusze_glosow.md`: Arkusze glosow dla odcinka E01 serialu ZERO (narzedzie docelowe Kling 4.0), kompletny wg specyfikacji zlecenia, oparty na scenariuszu E01 i zatwierdzonych materialach, z propozycjami reżyserskimi oznaczonymi jako PROPOZYCJA, jawnymi rozbieznosciami zrodel i pytaniami ABC do wlasciciela, bez nowych faktow kanonu.
-KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
+KONIEC:     PRAWDA gdy scenariusze S-D1..S-D5, S-D7 (oraz S-D6 dla pozycji sceny 1) przechodza; opisy w `autobot/SCENARIUSZE.md`, sekcja "Tematy ZERO-PAKIET-001..022". Zadna zmiana poza allowlista.
 
 WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > decyzje wlasciciela ECHO > raport ANALIZA-003 i dokumenty produkcyjne rank 4; sprzecznosci zapisuj jawnie z dwoma cytatami, nie rozstrzygaj):
  - `scenariusze/ZERO_mini_serial_E01_ADAM_rev.md` i `MANIFEST.sha256`; `docs/analiza/ZERO-ANALIZA-001-e01-logika-timing-napiecie/` (raport.md, tabela_scen.md); `docs/analiza/ZERO-ANALIZA-003-produkcja-e01-spojnosc/` (raport.md, tabela_rozbieznosci.md — luki i rozbieznosci materialow produkcyjnych);
@@ -14,6 +14,8 @@ WEJSCIA (tylko odczyt; hierarchia przy sprzecznosci: scenariusz E01 rank 1 > dec
 
 ZADANIE: utworz plik `docs/produkcja/pakiet/A04_arkusze_glosow.md` (po polsku; nazwy techniczne bez znakow diakrytycznych; prompty i dialogi do wklejenia po angielsku). Zawartosc: Arkusze glosow dla wszystkich rol mowiacych w E01: rola, zakres wieku, barwa, tempo, akcent, emocjonalnosc, jak glos ma sie zmieniac w czasie (Vera w kolejnych okresach, Aga zmeczona), opis do zaprojektowania glosu (propozycja), probne linie z scenariusza do przesluchania (kanon polski doslownie), wskazanie dla Klinga (glos powiazany z Elementem, dialog w cudzyslowie po angielsku — polski nie jest wspierany wg badan) oraz dla polskiego dubbingu w montazu; lista drobnych rol i decyzja ABC, ktore maja osobne glosy; liczba glosow potrzebnych lacznie. Bez nagrywania i bez wywolan zewnetrznych uslug.
  Na poczatku pliku: naglowek z ID tematu, data (2026-11-28), zakres, zrodla (lista plikow wejsciowych z hashami SHA-256) i legenda oznaczen (PROPOZYCJA REZYSERSKA, BRAK DANYCH, rozbieznosc zrodel). Na koncu: lista pytan ABC do wlasciciela, powiazania z innymi plikami pakietu i lista "Co jeszcze dolozyc".
+
+WYMOG DODATKOWY (ECHO-041, scenariusz S-D7): plik musi zawierac sekcje "Kadry bez postaci i przejscia" ze wpisami dla swojej dziedziny: Glos poza kadrem (off, telefon, radio, tlo): kiedy glos jest slyszalny na kadrze bez postaci, jak to opisac w promptach i w montazu.  Elementy spoza scenariusza oznacz PROPOZYCJA REZYSERSKA.
 
 REGULA PRZECIW SAMOOSZUKIWANIU:
  - Zakaz dopisywania faktow kanonu (imion, dat, zdarzen, dialogow); elementy "od rezysera" oznacz PROPOZYCJA REZYSERSKA; decyzje kanoniczne i produktowe tylko jako pytania ABC do wlasciciela (G2, G3); kanon dialogow bez zmian.

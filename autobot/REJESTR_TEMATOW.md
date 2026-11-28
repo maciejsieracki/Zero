@@ -10,9 +10,9 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 | ZERO-PROD-002-scena1-kling | Plik produkcyjny Sceny 1 E01 dla Kling 4.0: os czasu w milisekundach, prompty ujec EN (MCP i API), Elements, weryfikacja, "co jeszcze dolozyc" | w toku (runda 1-3 z 3; licznik aktualizuje orkiestrator po zakonczeniu workflow) | w toku rownolegle z ANALIZA-003 (pula 2); obieg z obrona (ECHO-036, ECHO-037); odpowiada na pytanie 12 (wariant B, Kling) |
 
 
-**Pakiet produkcyjny (ECHO-040) — 22 tematy w kolejce, falami (po ANALIZA-003 i PROD-002):**
-- fala 1: PAKIET-001-biblia-serialu, PAKIET-002-przewodnik-wizualny, PAKIET-003-biblia-postaci, PAKIET-004-arkusze-glosow, PAKIET-005-biblia-lokacji, PAKIET-006-biblia-rekwizytow, PAKIET-007-biblia-dzwieku, PAKIET-008-przewodnik-promptow-kling, PAKIET-009-budzet, PAKIET-010-prawa-licencje, PAKIET-011-rejestr-decyzji
-- fala 2: PAKIET-012-karta-sceny-1, PAKIET-013-arkusz-dialogow-s1, PAKIET-014-arkusz-sygnalow-s1, PAKIET-015-arkusz-ciaglosci-s1, PAKIET-016-paczka-referencji-s1
+**Pakiet produkcyjny (ECHO-040, ECHO-041) — 24 tematy w kolejce, falami (po ANALIZA-003 i PROD-002):**
+- fala 1: PAKIET-023-katalog-ujec-uzupelniajacych, PAKIET-001-biblia-serialu, PAKIET-002-przewodnik-wizualny, PAKIET-003-biblia-postaci, PAKIET-004-arkusze-glosow, PAKIET-005-biblia-lokacji, PAKIET-006-biblia-rekwizytow, PAKIET-007-biblia-dzwieku, PAKIET-008-przewodnik-promptow-kling, PAKIET-009-budzet, PAKIET-010-prawa-licencje, PAKIET-011-rejestr-decyzji
+- fala 2: PAKIET-024-kadry-uzupelniajace-s1, PAKIET-012-karta-sceny-1, PAKIET-013-arkusz-dialogow-s1, PAKIET-014-arkusz-sygnalow-s1, PAKIET-015-arkusz-ciaglosci-s1, PAKIET-016-paczka-referencji-s1
 - fala 3: PAKIET-017-tracker-produkcji, PAKIET-018-kontrola-jakosci, PAKIET-019-plan-montazu, PAKIET-020-polski-glos, PAKIET-021-muzyka-grade-eksport, PAKIET-022-wersje-testy
 
 W kolejce: **ZERO-PLAN-002-pakiet-produkcyjny** (pelny katalog plikow potrzebnych do stworzenia filmu, ujety jak rezyser; po ANALIZA-003; ECHO-039); **ZERO-PROD-003-scena1-kling-tekst** (wersja .txt pliku Sceny 1 dla Klinga do zalaczenia; po zamknieciu PROD-002; ECHO-038); PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
