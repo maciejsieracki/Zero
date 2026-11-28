@@ -6,7 +6,7 @@ Stan na 2026-11-27 (aktualizowany przez orkiestratora po kazdym zdarzeniu termin
 
 | ID | GOAL | Runda | Stan |
 |---|---|---|---|
-| ZERO-RESEARCH-007-zestawienie-aktualne | Zestawienie zbiorcze (.md i .docx) tylko z najnowsza, aktualnie dostepna generacja kazdego systemu w grze; Sora 2 i inne odpadajace modele nie wystepuja w pliku w ogole (ECHO-031); bez rankingu | 3 z 3 wyczerpane (limit rund) | **WSTRZYMANY, czeka na zgode wlasciciela na dodatkowe przejscie**: Evaluator CLEAR 10/10 w rundzie 3; Final Control: wytwor bez zarzutow merytorycznych, jedyny zarzut to nieaktualny opis tematu w rejestrze (mój blad, naprawiony w tym zapisie); wytwor (zmodyfikowane .md i .docx) lezy niezacommitowany w katalogu roboczym, Integration nie wykonana
+| ZERO-RESEARCH-007-zestawienie-aktualne | Zestawienie zbiorcze (.md i .docx) tylko z najnowsza, aktualnie dostepna generacja kazdego systemu w grze; Sora 2 i inne odpadajace modele nie wystepuja w pliku w ogole (ECHO-031); bez rankingu | 4 z 4 (dodatkowe przejscie zamykajace, zgoda wlasciciela ECHO-032) | **w toku (licznik aktualizuje orkiestrator po zakonczeniu workflow)**: Evaluator -> Final Control -> Integration, bez zmian tresci; Evaluator r3 = CLEAR; opis tematu w rejestrze zgodny z ECHO-031 (naprawiony w 9138984). Pytanie 11 (usuniecie Veo) czeka na odpowiedz wlasciciela
 
 W kolejce: PROCES-004 (pelny plik zasad), RESEARCH-004 (warunki komercyjne i filtry tresci), temat miedzyodcinkowy i poprawki scenariuszy po decyzjach kanonicznych.
 
